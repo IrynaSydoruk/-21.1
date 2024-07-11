@@ -4,16 +4,32 @@
         <title>About my town Lutsk</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" type="text/css" rel="stylesheet">
 </head>
 <body>
     <nav>
-    <a href="./index.html">Головна</a>
+    <a href="./index.html">Головна </a>
        <a href="./pages/contact.html">Контакти</a> 
        <a href="./pages/gallery.html">Галерея</a>
        <br>
        <br>
     </nav>
-    <h1><b><center>Lutsk</b> is a wonderful town</center h1>
+    <br><br>
+    <form method="post" action="https://fom.in.ua/echo">
+        <br><br>
+        <label for="name">А з якого міста Ви?: </label><input type="text" id="name" placeholder="Назва Вашого міста..." name="Town">
+        <br><br>
+        <label for="date" id="lbdate">Дата створення міста: </label> <input type="date" id="date" name="Date">
+
+
+        <br><br>
+        <input type="submit" value="Пошук даних про місто">
+        <br><br>
+        
+
+
+    </form>
+    <h1><b><center>Lutsk</b> is a wonderful town </center h1 id="idtext">
         <br>
         <br>
     <em><u><b>Lutsk</b></u> is one of the <strike>old</strike> <strong>oldest</strong> town in Ukraine. Its history is about 1000 years old. <p>The first chronicle mention of Lutsk dates back to 1085, from which the people of Lutsk count the birthday of their city. The silent witness of all historical events of the city is the Lutsk Castle - an architectural monument of national importance.</em></p>
